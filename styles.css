@@ -1,0 +1,49 @@
+/*
+USAR ESTOS COLORES
+
+BLUE: #93B5C9
+WINE: #AB2849
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #93B5C9;
+    height: 200px;
+}
+
+section{
+    background-color: #AB2849;
+    height: 300px;
+}
+
+.contenedor{
+    height: 500px;
+    background-color: #ffffff;
+}
+ .padre{
+    height: 490px;
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+.padre article{
+    float: left;
+    background-color: #AB2849;
+    width: 80%;
+    height: 100px;
+    margin: 15px 0 0 0;
+}
+
+footer{
+    clear: both;
+    background-color: #AB2849;
+    height: 100px;
+    width: 95%;
+    margin: 0 auto;
+}
